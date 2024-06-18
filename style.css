@@ -12,7 +12,6 @@ nav{
     width: 100%;
     height: 100px;
     display: flex;
-    
 }
 
 nav img{
@@ -20,6 +19,8 @@ nav img{
     height: 100px;
     margin-top: -10;
 }
+
+
 
 main{
     width: 40%;
@@ -123,13 +124,85 @@ footer{
     height: 100px;
     background-color: rgb(148, 56, 56);
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
+    color: whitesmoke;
 }
 
-a:link, a:visited{
+footer a:link, a:visited{
     text-decoration: none;
     color: white;
     font-size: 2em;
 }
 
+.national{
+    height: 450px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-bottom: solid grey;
+}
+
+.national img{
+    width: 300px;
+    height: 350px;
+}
+
+.national h2{
+    width: 100%;
+}
+
+.national p{
+    width: 400px;
+    margin-right: 20PX;
+}
+
+.WBC{
+    height: 450px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-bottom: solid grey;
+}
+
+.WBC img{
+    width: 300px;
+    height: 300px;
+}
+
+.WBC h2{
+    width: 100%;
+}
+
+.WBC p{
+    width: 400px;
+    margin-left: 20PX;
+}
+
+.langstroth{
+    height: 450px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.langstroth h2{
+    width: 100%;
+}
+
+.langstroth img{
+    width: 300px;
+    height: 350px;
+}
+
+.langstroth p{
+    width: 400px;
+    margin-right: 20PX;
+}
